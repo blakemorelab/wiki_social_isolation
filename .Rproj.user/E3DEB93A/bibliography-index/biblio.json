@@ -289,7 +289,7 @@
         }
     ],
     "project_biblios": [
-        "book.bib",
+        "references.bib",
         "packages.bib"
     ]
 }
