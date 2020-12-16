@@ -1,0 +1,5 @@
+book_filename: "wiki_social_isolation"
+delete_merged_file: true
+language:
+  ui:
+    chapter_name: "Chapter "
