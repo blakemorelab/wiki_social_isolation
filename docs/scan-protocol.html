@@ -31,7 +31,7 @@
   
   
 <link rel="prev" href="intro.html"/>
-<link rel="next" href="references.html"/>
+<link rel="next" href="scan-log.html"/>
 <script src="libs/header-attrs-2.5/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -98,6 +98,14 @@
 <ul>
 <li class="chapter" data-level="3.4.1" data-path="scan-protocol.html"><a href="scan-protocol.html#disabling-wifi-on-windows"><i class="fa fa-check"></i><b>3.4.1</b> Disabling WiFi on Windows</a></li>
 <li class="chapter" data-level="3.4.2" data-path="scan-protocol.html"><a href="scan-protocol.html#finding-the-wbic"><i class="fa fa-check"></i><b>3.4.2</b> Finding the WBIC</a></li>
+<li class="chapter" data-level="3.4.3" data-path="scan-protocol.html"><a href="scan-protocol.html#escaping-from-matlab-mid-task"><i class="fa fa-check"></i><b>3.4.3</b> Escaping from Matlab mid-task</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="scan-log.html"><a href="scan-log.html"><i class="fa fa-check"></i><b>4</b> Scan Log</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="scan-log.html"><a href="scan-log.html#pilots"><i class="fa fa-check"></i><b>4.1</b> Pilots</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="scan-log.html"><a href="scan-log.html#pilot-02"><i class="fa fa-check"></i><b>4.1.1</b> Pilot 02</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
@@ -165,24 +173,26 @@
 <div id="on-arrival" class="section level3" number="3.2.1">
 <h3><span class="header-section-number">3.2.1</span> On Arrival</h3>
 <ul>
-<li>Check in to WBIC shift on Teams</li>
+<li>Check in to WBIC shift on Teams (clock-in)</li>
 <li>Send message in teams COVID-19 channel “I’m here”</li>
 <li>Tell receptionist you are scanning on 7T with your assigned Radiographer (Tracy)</li>
 <li>Find place in lobby to sit</li>
 <li>Have participant fill out MRI safety screening (again)</li>
 <li>Load task on laptop (disinfect laptop - COVID protocol)
 <ul>
-<li>Password - frith3</li>
-<li><a href="scan-protocol.html#disabling-wifi-on-windows">Disabling WiFi on Windows</a></li>
+<li>Password for Franklin - frith3</li>
+<li>Disable WiFi - <a href="scan-protocol.html#disabling-wifi-on-windows">Disabling WiFi on Windows</a></li>
 <li>Close all applications</li>
 </ul></li>
-<li>Run practice task (approximately 5 minutes duration)
+<li>Run practice task (approximately 5 minutes duration)(IMPORTANT - practice task data is used to calibrate actual task)
 <ul>
 <li>Open MatLab</li>
 <li>Set current directory as task directory</li>
 <li>Type MID_v9 and hit “Enter”</li>
 <li>Type participant id - pilot_02</li>
 <li>Type “0” to run practice</li>
+<li>After instruction screen - press 7 to start task</li>
+<li>Participant should press “1” to respond during practice</li>
 </ul></li>
 </ul>
 </div>
@@ -212,8 +222,8 @@
 </ul></li>
 <li>Connect laptop
 <ul>
-<li>To projector</li>
-<li>To trigger</li>
+<li>To projector (make sure projector monitor is turned to #4 in console behind seating)</li>
+<li>To trigger (USB calbe labeled “stimulus”)</li>
 <li>Plug in to power outlet</li>
 </ul></li>
 <li>Setup task (should be setup from practice run)</li>
@@ -224,6 +234,7 @@
 <h3><span class="header-section-number">3.2.4</span> Scanning</h3>
 <ul>
 <li>Scan sequences are saved in protocol at WBIC</li>
+<li>Participant to use right hand for button box</li>
 <li>Radiographer or researcher to check in with participant after each run</li>
 <li>Anatomical scans first</li>
 <li>Functional scans
@@ -231,6 +242,7 @@
 <li>Type MID_v9 and hit “Enter”</li>
 <li>Type participant id - pilot_02</li>
 <li>Type “1” to run first run</li>
+<li>Takes approximately 1 minute from starting sequence to the task trigger so be patient</li>
 <li>When complete run other 3 runs (#2-4)</li>
 </ul></li>
 </ul>
@@ -254,7 +266,9 @@
 <div id="on-exit" class="section level3" number="3.3.1">
 <h3><span class="header-section-number">3.3.1</span> On Exit</h3>
 <ul>
+<li>Check out of shift on teams (clock-out)</li>
 <li>Send message in teams COVID-19 channel “I’m leaving”</li>
+<li>Send consent forms for participant to Radiographer</li>
 <li>Backup behavioral data</li>
 <li>Livia to download scan data from cluster</li>
 </ul>
@@ -286,6 +300,14 @@
 <li>There will be a roundabout near the hospital</li>
 <li>Entrance to WBIC is at end of the street past the hospital</li>
 </ul>
+</div>
+<div id="escaping-from-matlab-mid-task" class="section level3" number="3.4.3">
+<h3><span class="header-section-number">3.4.3</span> Escaping from Matlab mid-task</h3>
+<ul>
+<li>Press “Alt” + “Tab” on Franklin</li>
+<li>Navigate to Matlab command window</li>
+<li>Type “Ctrl” + “C” then hit “Enter” to exit the task</li>
+</ul>
 
 </div>
 </div>
@@ -296,7 +318,7 @@
         </div>
       </div>
 <a href="intro.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="references.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="scan-log.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

@@ -16,3 +16,7 @@ on-exit
 troubleshooting
 disabling-wifi-on-windows
 finding-the-wbic
+escaping-from-matlab-mid-task
+scan-log
+pilots
+pilot-02

@@ -1,0 +1,11 @@
+# Scan Log {#scan-log}
+
+## Pilots
+
+### Pilot 02
+
+-   Practice run didn't work. Participant pressed "1" many times before understanding task - so that might have caused it to glitch. Therefore, scan runs won't be "pre-calibrated" to participant reaction time.
+-   Projector glitched a double image during one run of the task
+-   Participant said feedback is too fast
+-   Anatomical scan was run twice due to participant movement
+-   Functional scans were run several times - due to initial issue with trigger - therefore the final four functional scans are the correct scans
