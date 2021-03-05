@@ -33,15 +33,23 @@
 ### On Arrival
 
 -   Check in to WBIC shift on Teams (clock-in)
+
 -   Send message in teams COVID-19 channel "I'm here"
+
 -   Tell receptionist you are scanning on 7T with your assigned Radiographer (Tracy)
+
 -   Find place in lobby to sit
+
 -   Have participant fill out MRI safety screening (again)
+
 -   Load task on laptop (disinfect laptop - COVID protocol)
+
     -   Password for Franklin - frith3
     -   Disable WiFi - [Disabling WiFi on Windows]
     -   Close all applications
+
 -   Run practice task (approximately 5 minutes duration)(IMPORTANT - practice task data is used to calibrate actual task)
+
     -   Open MatLab
     -   Set current directory as task directory
     -   Type MID\_v9 and hit "Enter"
@@ -63,23 +71,33 @@
 ### Scan Setup
 
 -   Radiographer will assist participant into scanner
+
     -   Explain emergency squeeze ball, hearing protection, talking between each run
     -   Explain staying VERY STILL - even small movements will cause distortions
     -   Using button box to respond to task (press \#1)
+
 -   Connect laptop
-    -   To projector (make sure projector monitor is turned to #4 in console behind seating)
+
+    -   To projector (make sure projector monitor is turned to \#4 in console behind seating)
     -   To trigger (USB calbe labeled "stimulus")
     -   Plug in to power outlet
+
 -   Setup task (should be setup from practice run)
+
 -   If Cat not present, tell radiographer to cut one DTI sequence (keep the MB2\_iPAT2)
 
 ### Scanning
 
 -   Scan sequences are saved in protocol at WBIC
+
 -   Participant to use right hand for button box
+
 -   Radiographer or researcher to check in with participant after each run
+
 -   Anatomical scans first
+
 -   Functional scans
+
     -   Type MID\_v9 and hit "Enter"
     -   Type participant id - pilot\_02
     -   Type "1" to run first run
@@ -89,10 +107,13 @@
 ## Post Scan
 
 -   Ask pilot participant (make notes)
+
     -   Was there anything they did not understand?
     -   Was there anything strange or different than expected?
     -   How were the timings? Were they fast, but long enough to understand?
+
 -   Participant payment
+
     -   Tell participant will be paid 20 pounds for the scan plus what they win in the task
     -   Reimbursement for travel available if needed (tell participant to send the receipts)
 
